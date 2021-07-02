@@ -124,5 +124,4 @@ puts "Please enter a landing url... i.e. https://www.cruisetimetables.com/cruise
 landing_url = gets.chomp
 scraper = CruiseScraper.new(landing_url)
 scraper.scrape
-# puts ""
-# puts scraper.data
+puts scraper.data
